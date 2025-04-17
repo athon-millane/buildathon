@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Buildathon tutorial
 description: A buildathon tutorial built using the instructions from the Buildathon tutorial
+show_downloads: false
