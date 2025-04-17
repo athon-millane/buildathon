@@ -1,2 +1,2 @@
-# nsbuild.github.io
+# Buildathon
 NS Buildathon Tutorial Resources
