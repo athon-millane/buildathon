@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content {
+  max-width: 800px;
+}
+
+.sidebar-nav {
+  margin-top: 20px;
+  
+  a {
+    color: #267CB9;
+    
+    &:hover {
+      color: #069;
+      font-weight: bold;
+    }
+  }
+  
+  .section-title {
+    color: #494949;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 5px;
+  }
+}
+
+header {
+  width: 270px;
+  float: left;
+  position: fixed;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+@media print, screen and (max-width: 960px) {
+  header {
+    position: static;
+    width: auto;
+    max-height: none;
+    overflow-y: visible;
+  }
+}
